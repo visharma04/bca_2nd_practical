@@ -1,0 +1,52 @@
+<!-- 16. Page 1: Compose E-Mail (compose.html) -->
+
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Compose Email</title>
+    <style>
+        body {
+            font-family: Arial;
+            background-color: #f0f0f0;
+        }
+        .box {
+            width: 400px;
+            background: white;
+            padding: 20px;
+            margin: 50px auto;
+        }
+        input, textarea {
+            width: 100%;
+            margin-bottom: 10px;
+        }
+    </style>
+</head>
+
+<body>
+
+<div class="box">
+    <h2>Compose Mail</h2>
+
+    <form action="sent.html">
+        <label>To:</label>
+        <input type="email" required>
+
+        <label>CC:</label>
+        <input type="email">
+
+        <label>BCC:</label>
+        <input type="email">
+
+        <label>Message:</label>
+        <textarea rows="5"></textarea>
+
+        <label>Attachment:</label>
+        <input type="file">
+
+        <br><br>
+        <input type="submit" value="Send">
+    </form>
+</div>
+
+</body>
+</html>

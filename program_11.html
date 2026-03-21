@@ -1,0 +1,12 @@
+<!-- 11. JavaScript: Palindrome Check -->
+<script>
+function isPalindrome(str) {
+    let rev = str.split("").reverse().join("");
+    if(str === rev)
+        document.write("Palindrome");
+    else
+        document.write("Not Palindrome");
+}
+
+isPalindrome("madam");
+</script>
